@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./Assets/Images/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-color: var(--primary-color);
+}
+
+ :root{
+    --primary-color:#dcdcda;
+    --secondary-color:#ffffff;
+    --third-color:#fd4c82;
+    --para-color: #000;
+ }
+
+ .container h4{
+    background-color: var(--secondary-color);
+ }
+
+p{
+margin-bottom: 40px;
+}
